@@ -4,7 +4,7 @@ import Search from "./Search";
 function Comments() {
   
     const [getComments, setComments] = useState([]);
-
+//fetched json data for the comments
     useEffect(() => {
         fetch("http://localhost:4001/movies")
         .then((res) => res.json())
