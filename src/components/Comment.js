@@ -1,7 +1,8 @@
 import React,{useState, useEffect} from "react";
 import Search from "./Search";
 
-function Comment() {
+function Comments() {
+  
     const [getComments, setComments] = useState([]);
 
     useEffect(() => {
@@ -24,6 +25,10 @@ function Comment() {
             setComments(getComments.filter((comment) => comment.id !== id));
         });
     }
+
+
+
+
 
   return (
     <div>
@@ -62,7 +67,7 @@ function Comment() {
     
     </div>
     </div>
-  )
+  );
 }
 
-export default Comment
+export default Comments;
