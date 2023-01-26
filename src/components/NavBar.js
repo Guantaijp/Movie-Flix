@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function Navbar() {
-  return (
-    <>
-      <nav
+function NavBar({handleOnSubmit}) {
+  
+  return ( 
+    <nav
       className="navbar navbar-expand-lg bg-body-tertiary"
       style={{ backgroundColor: "#C7DCD9" }}
     >
@@ -40,8 +40,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item mx-5 px-5 ">
-              <a className="nav-link" 
-              href="/about">
+              <a className="nav-link" href="/about">
                 About
               </a>
             </li>
@@ -52,7 +51,7 @@ function Navbar() {
             </li>
           </ul>
           
-          <form className="d-flex" role="search">
+          <form className="d-flex" role="search" onSubmit={handleOnSubmit}>
             <input
               id="inputText"
               className="form-control me-2"
@@ -67,8 +66,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
-    </>
-  )
+  );
 }
 
-export default Navbar;
+export default NavBar;
