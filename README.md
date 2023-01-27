@@ -21,12 +21,12 @@ In the project directory,you can run:
     -   open the folder with VS code
     -   Run this command on the terminal on the project directory to get the project application started:
     console
-    $ npm install react-router-dom ,
-    $npm install,
-    $npm start
+    -  $ npm install react-router-dom ,
+    -  $npm install,
+    -  $npm start
     -   Run this command in another teminal on the project directory to get the backend started:
     console
-    $ json-server --watch db.json --port 4001
+    -  $ json-server --watch db.json --port 4001
     -   And the you are good to go.
 
 ##### Requirements
