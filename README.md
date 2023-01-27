@@ -52,4 +52,4 @@ Guantai JohnPaul
 Paul Ngugi
 Jennifer Sammy
 # License and Copyright Information
-Copyright 2023  Licensed under[MT License]('https://github.com/Paul-ike/Bot-Battlr/blob/main/LICENSE')
+Copyright 2023  Licensed under[MIT License]('https://github.com/Paul-ike/Bot-Battlr/blob/main/LICENSE')
