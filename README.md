@@ -20,9 +20,13 @@ In the project directory,you can run:
     -   extract the downloaded zip folder
     -   open the folder with VS code
     -   Run this command on the terminal on the project directory to get the project application started:
-    console $ npm install react-router-dom ,npm install, && npm start
+    console
+    $ npm install react-router-dom ,
+    $npm install,
+    $npm start
     -   Run this command in another teminal on the project directory to get the backend started:
-    console $ json-server --watch db.json --port 4001
+    console
+    $ json-server --watch db.json --port 4001
     -   And the you are good to go.
 
 ##### Requirements
