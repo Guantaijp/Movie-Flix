@@ -6,7 +6,7 @@ function Comments() {
     const [getComments, setComments] = useState([]);
 //fetched json data for the comments
     useEffect(() => {
-        fetch("http://localhost:4001/movies")
+        fetch("https://json-server-seven-orcin.vercel.app/movies")
         .then((res) => res.json())
         .then((data) => {
             setComments(data);
@@ -15,7 +15,7 @@ function Comments() {
     }, []);
 
     function handleDelete(id) {
-        fetch(`http://localhost:4001/movies/${id}`, {
+        fetch(`https://json-server-seven-orcin.vercel.app/movies/${id}`, {
             method: "DELETE",
         })
         .then((res) => res.json())
