@@ -37,7 +37,7 @@ function Card({movie}){
     setRate("");
 
 
-    fetch("http://localhost:4001/movies", {
+    fetch("https://json-server-seven-orcin.vercel.app/movies", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
